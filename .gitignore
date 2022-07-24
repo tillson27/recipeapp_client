@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/_diag
+/externals
+/.credientials
+.credentials
+.credentials_rsaparams
+.runner
+actions-runner-win-x64-2.294.0.zip
+config.cmd
+run-helper.cmd
+run-helper.cmd.template
+run-helper.sh.template
+run.cmd
