@@ -15,6 +15,7 @@ export const RecipeCard = (props) => {
     const deleteRecipeCard = (recipe_id) => {
         dispatch(deleteRecipeAsync(recipe_id));
         window.location.reload();
+        window.location.reload();
     };
     const ingredients = props.ingredients.map(ingredient => <Ingredient name={ingredient} />);
     const instructions = props.instructions.map(instruction => <Instruction name={instruction} />);
