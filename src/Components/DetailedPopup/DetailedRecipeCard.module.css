@@ -1,0 +1,33 @@
+/* Leverages popup strategy from open source repo "practical-roentgen-oxzb4" by Link2Twenty on codesandbox.io
+https://codesandbox.io/s/practical-roentgen-oxzb4?from-embed=&file=/src/App.js:478-570 */
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .popup h2 {
+    color: black;
+  }
+
+  .popup .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
