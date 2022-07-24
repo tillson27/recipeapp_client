@@ -13,7 +13,7 @@ const RecipeCards = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(getRecipesAsync())
-    }, []);
+    });
 
     const recipeList = recipes.map(recipe => <RecipeCard title={recipe.rname} ingredients={recipe.ingredients} instructions={recipe.instructions} id={recipe._id} />);
 

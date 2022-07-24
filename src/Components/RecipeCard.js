@@ -5,7 +5,7 @@ import { Instruction } from "./Instruction"
 import DetailedRecipeCard from "./DetailedPopup/DetailedRecipeCard";
 import { useState } from "react";
 import { deleteRecipeAsync } from '../redux/thunks';
-import React, { useEffect } from 'react';
+import React from 'react';
 import EditForm from './EditForm';
 
 export const RecipeCard = (props) => {

@@ -1,6 +1,6 @@
 import '../styles/App.css';
 import { useDispatch } from "react-redux";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { editRecipeAsync } from '../redux/thunks';
 import PropTypes from "prop-types";
 
