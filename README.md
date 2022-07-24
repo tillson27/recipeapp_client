@@ -4,7 +4,7 @@
 
 ### Front End Deployment [Recipe App](https://recipeapp-front.herokuapp.com/)
 
-### Server Side Repository [recipeapp_client](https://github.com/tillson27/recipeapp_server)
+### Server Side Repository [recipeapp_server](https://github.com/tillson27/recipeapp_server)
 
 
 
