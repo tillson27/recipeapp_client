@@ -1,6 +1,6 @@
 const addRecipe = async (recipe) => {
 
-    const response = await fetch('http://localhost:3001/recipes', {
+    const response = await fetch('https://recipeapp-serverr.herokuapp.com/recipes', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -19,7 +19,7 @@ const addRecipe = async (recipe) => {
 };
 
 const getRecipes = async () => {
-    const response = await fetch('http://localhost:3001/recipes', {
+    const response = await fetch('https://recipeapp-serverr.herokuapp.com/recipes', {
         method: 'GET',
         mode: 'cors'
     });
@@ -27,7 +27,7 @@ const getRecipes = async () => {
 };
 
 const getRecipe = async (id) => {
-    const response = await fetch('http://localhost:3001/recipes/find' + new URLSearchParams({
+    const response = await fetch('https://recipeapp-serverr.herokuapp.com/recipes/find' + new URLSearchParams({
         id: id
     }), {
         method: 'GET',
@@ -37,7 +37,7 @@ const getRecipe = async (id) => {
 };
 
 const deleteRecipe = async (id) => {
-    const response = await fetch('http://localhost:3001/recipes/delete?' + new URLSearchParams({
+    const response = await fetch('https://recipeapp-serverr.herokuapp.com/recipes/delete?' + new URLSearchParams({
         id: id
     }), {
         method: 'DELETE',
@@ -47,7 +47,7 @@ const deleteRecipe = async (id) => {
 };
 
 const deleteAllRecipes = async () => {
-    const response = await fetch('http://localhost:3001/recipes/deleteAll', {
+    const response = await fetch('https://recipeapp-serverr.herokuapp.com/recipes/deleteAll', {
         method: 'DELETE',
         mode: 'cors'
     });
@@ -56,7 +56,7 @@ const deleteAllRecipes = async () => {
 
 const editRecipe = async (recipe) => {
 
-    const response = await fetch('http://localhost:3001/recipes/edit', {
+    const response = await fetch('https://recipeapp-serverr.herokuapp.com/recipes/edit', {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
