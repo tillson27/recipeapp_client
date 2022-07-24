@@ -74,7 +74,7 @@ const editRecipe = async (recipe) => {
     return data;
 };
 
-export default {
+const recipeActions = {
     addRecipe,
     getRecipes,
     getRecipe,
@@ -82,3 +82,5 @@ export default {
     deleteAllRecipes,
     editRecipe
 };
+
+export default recipeActions;
