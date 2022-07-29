@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return (
         <div className="About">
-            <h1>About the Website</h1>
+            <h1>About the Application</h1>
             <h4>This website was created with ❤️ for a UBC assignment in CPSC 455 to apply our workshop learnings around
                 basic
                 HTML, CSS and Vanilla JavaScript.</h4>
